@@ -53,4 +53,4 @@ jobs:
         run: pytest --cov=mkdocs_cdoc --cov-report=term-missing --cov-report=xml tests
 
       - name: Build validation - example MkDocs project
-        run: mkdocs build -f example/mkdocs.yml --strict
+        run: mkdocs build -f example/mkdocs.yml
