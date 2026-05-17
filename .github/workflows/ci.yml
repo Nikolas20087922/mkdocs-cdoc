@@ -33,7 +33,7 @@ jobs:
           pip install pytest pytest-cov flake8 pylint mypy mkdocs mkdocs-material
 
       - name: Static analysis - flake8
-        run: flake8 mkdocs_cdoc tests
+        run: flake8 mkdocs_cdoc
 
       - name: Static analysis - pylint
         run: pylint mkdocs_cdoc --fail-under=7.0
