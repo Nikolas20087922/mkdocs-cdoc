@@ -1556,6 +1556,3 @@ class TestSubtestStepExtraction:
         body = _extract_brace_body(source, source.index("{"))
         assert "bar()" in body
         assert "baz()" in body
-
-def test_intentional_ci_failure():
-    assert False
